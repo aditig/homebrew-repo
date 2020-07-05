@@ -7,14 +7,7 @@ class MongodbAT32 < Formula
   # an open-source license.
   url "https://fastdl.mongodb.org/src/mongodb-src-r3.2.21.tar.gz"
   sha256 "8263befc10319809ea14e5cbf230c55113de7b38510b42a6ad27125dfa674371"
-
-  bottle do
-    cellar :any
-    rebuild 1
-    sha256 "efe99609096262f95c01d84b1eb78f9b6cd8a412f004c73402a1900cdcfd37f8" => :mojave
-    sha256 "ed6e3298e25712a8b1517185a84f44d6467a751b67a52e497bc911d1f90230e4" => :high_sierra
-    sha256 "e795467acd93f7f4775c9978afb9bfba7c5f8fc589a177fd1c567d84fd0c3612" => :sierra
-  end
+  bottle :unneeded
 
   keg_only :versioned_formula
 
