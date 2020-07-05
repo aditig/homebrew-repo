@@ -1,6 +1,6 @@
-# Homebrew Deprecated Tap
+# Homebrew Tools Tap
 
-A [Homebrew][homebrew] tap for some deprecated formulae.
+A [Homebrew][homebrew] tap for some tools.
 
 ## Installation
 ```
